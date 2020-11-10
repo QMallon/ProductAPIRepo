@@ -21,17 +21,17 @@
 							"pm.test(\"response to have an Category\", function(){pm.response.to.have.jsonBody(\"[0].Category\")});\r",
 							"pm.test(\"response to have an Price\", function(){pm.response.to.have.jsonBody(\"[0].Price\")});\r",
 							"pm.test(\"value of [0].Id to be 1\", function(){pm.expect(1).to.equal(jsonData[0].Id)});\r",
-							"pm.test(\"value of [0].Name to be Tomato Soup\", function(){pm.expect(\"Tomato Soup\").to.equal(jsonData[0].Name)});\r",
-							"pm.test(\"value of [0].Category to be Groceries\", function(){pm.expect(\"Groceries\").to.equal(jsonData[0].Category)});\r",
+							"pm.test(\"value of [0].Name to be Potatoe Soup\", function(){pm.expect(\"Potatoe Soup\").to.equal(jsonData[0].Name)});\r",
+							"pm.test(\"value of [0].Category to be schmoceries\", function(){pm.expect(\"Schmoceries\").to.equal(jsonData[0].Category)});\r",
 							"pm.test(\"value of [0].Price to be 1.0\", function(){pm.expect(1).to.equal(jsonData[0].Price)});\r",
 							"pm.test(\"value of [1].Id to be 2\", function(){pm.expect(2).to.equal(jsonData[1].Id)});\r",
-							"pm.test(\"value of [1].Name to be Yo-yo\", function(){pm.expect(\"Yo-yo\").to.equal(jsonData[1].Name)});\r",
-							"pm.test(\"value of [1].Category to be Toys\", function(){pm.expect(\"Toys\").to.equal(jsonData[1].Category)});\r",
-							"pm.test(\"value of [1].Price to be 3.75\", function(){pm.expect(3.75).to.equal(jsonData[1].Price)});\r",
+							"pm.test(\"value of [1].Name to be Basketball\", function(){pm.expect(\"Basketball\").to.equal(jsonData[1].Name)});\r",
+							"pm.test(\"value of [1].Category to be Sports\", function(){pm.expect(\"Sports\").to.equal(jsonData[1].Category)});\r",
+							"pm.test(\"value of [1].Price to be 10.00\", function(){pm.expect(10.00).to.equal(jsonData[1].Price)});\r",
 							"pm.test(\"value of [2].Id to be 3\", function(){pm.expect(3).to.equal(jsonData[2].Id)});\r",
-							"pm.test(\"value of [2].Name to be Hammer\", function(){pm.expect(\"Hammer\").to.equal(jsonData[2].Name)});\r",
-							"pm.test(\"value of [2].Category to be Hardware\", function(){pm.expect(\"Hardware\").to.equal(jsonData[2].Category)});\r",
-							"pm.test(\"value of [2].Price to be 16.99\", function(){pm.expect(16.99).to.equal(jsonData[2].Price)});"
+							"pm.test(\"value of [2].Name to be Saw\", function(){pm.expect(\"Saw\").to.equal(jsonData[2].Name)});\r",
+							"pm.test(\"value of [2].Category to be Tools\", function(){pm.expect(\"Tools\").to.equal(jsonData[2].Category)});\r",
+							"pm.test(\"value of [2].Price to be 19.99\", function(){pm.expect(19.99).to.equal(jsonData[2].Price)});"
 						],
 						"type": "text/javascript"
 					}
@@ -84,8 +84,8 @@
 							"pm.test(\"response to have an Category\", function(){pm.response.to.have.jsonBody(\"Category\")});\r",
 							"pm.test(\"response to have an Price\", function(){pm.response.to.have.jsonBody(\"Price\")});\r",
 							"pm.test(\"value of Id to be 1\", function(){pm.expect(1).to.equal(jsonData.Id)});\r",
-							"pm.test(\"value of Name to be Tomato Soup\", function(){pm.expect(\"Tomato Soup\").to.equal(jsonData.Name)});\r",
-							"pm.test(\"value of Category to be Groceries\", function(){pm.expect(\"Groceries\").to.equal(jsonData.Category)});\r",
+							"pm.test(\"value of Name to be Potatoe Soup\", function(){pm.expect(\"Potatoe Soup\").to.equal(jsonData.Name)});\r",
+							"pm.test(\"value of Category to be Schmoceries\", function(){pm.expect(\"Schmoceries\").to.equal(jsonData.Category)});\r",
 							"pm.test(\"value of Price to be 1.0\", function(){pm.expect(1).to.equal(jsonData.Price)});"
 						],
 						"type": "text/javascript"
